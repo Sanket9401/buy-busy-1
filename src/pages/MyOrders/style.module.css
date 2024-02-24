@@ -1,0 +1,34 @@
+.wrapper {
+  width: 60%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+}
+.wrapper .orderDetails {
+  width: 100%;
+}
+.orderDetails h2 {
+  color: #224957;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.orderTable {
+  width: 100%;
+  border: none;
+  margin: 0 auto 4rem;
+}
+.orderTable tr,
+.orderTable thead tr,
+.orderTable tbody tr {
+  background-color: #d9d9d936;
+}
+.orderTable thead tr th {
+  border: none;
+  padding: 10px;
+  border-bottom: 2px solid black;
+}
+.orderTable tbody tr td {
+  width: auto;
+  border: none;
+  padding: 10px;
+}
